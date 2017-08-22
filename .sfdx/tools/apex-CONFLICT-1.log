@@ -1,0 +1,14 @@
+Aug 22, 2017 10:25:12 AM org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor run
+SEVERE: null
+java.lang.NullPointerExceptio10:25:15.010 [Apex Prelude Service STARTING] INFO  a.j.l.i.s.ApexPreludeManagedService - Scanning built-in and system Apex types took 2203 ms.
+10:25:15.017 [ApexIndexer STARTING] INFO  a.jorje.lsp.impl.index.ApexIndexer - Scanning user-defined types.
+10:25:15.049 [ApexIndexer STARTING] INFO  a.jorje.lsp.impl.index.ApexIndexer - Scanning user-defined types took 32 ms.
+g.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 22, 2017 10:25:12 AM apex.jorje.parser.impl.BaseApexLexer dedupe
+INFO: Deduped array ApexLexer.DFA22_transition. Found 7730596 shorts which is 14MB not including array overhead. Removed 7073965 shorts which is 13MB not counting array overhead.Took 10ms.
